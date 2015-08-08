@@ -1,4 +1,9 @@
 /*Custom Styles*/
+html {
+margin-right:25px;
+margin-left:25px;
+
+}
 
 body{
     padding-top: 5em;
@@ -6,7 +11,7 @@ background-color: #eee;
 margin:0 3em;
 }
 hr {
-    border-top: 1px solid white;
+    border-top: 1px solid black;
 }
 .page-header {
 	margin-top:10px;
@@ -18,10 +23,10 @@ hr {
 }
  
 a:focus, a:hover {
-	font-style: italic;
-	border-bottom:3px solid #09C;
-    text-decoration: none;
-}
+	font-style:italic;
+	font-weight:bold;	
+	text-decoration:none;
+	}
 /*blockquote {
 	background-color:#fff;
 }
@@ -43,9 +48,7 @@ section h1,h2,h3{
 }
 
 article h1 {
-	border-bottom:3px solid black;
 	width:40%;
-	padding-bottom:.5em;
 }
 article img {
 	float:left;
@@ -92,7 +95,7 @@ input, select {
     margin-left: 0.5em;
     margin-bottom: 0.5em;
 	}
-input:required, input[required] input:invalid {
+/*input:required, input[required] input:invalid {
 	border: 2px solid #386B96;
 }
 input:valid {
@@ -100,7 +103,7 @@ input:valid {
 }
 input:invalid {
 	box-shadow: none;
-}
+}*/
 br {
     clear: both;
 }
@@ -160,6 +163,18 @@ fieldset.scheduler-border {
 
 section img {
 	margin-left:20em;
+	margin-right:12.5em;
 	}
+	
+	.text-muted {
+		text-align: justify;
+	}
+	
+	[class^="icon-"], [class*=" icon-"] {
+    height: 32px;
+    width: 32px;
+    display: inline-block; 
+    fill: currentColor; 
+}
 /*close-form*/
 
